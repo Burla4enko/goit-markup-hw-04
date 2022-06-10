@@ -414,7 +414,7 @@ p {
 }
 
 .social__link:hover,
-.social__link:active {
+.social__link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
@@ -431,7 +431,11 @@ p {
 }
 
 .cliets__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
   width: calc((100% - 150px) / 6);
+  height: 92px;
 
   border: 1px solid var(--icon-color);
   border-radius: 4px;
@@ -440,21 +444,18 @@ p {
 }
 
 .cliets__item:hover,
-.cliets__item:active {
+.cliets__item:focus {
   border-color: var(--accent-color);
 }
 
-.clients__link {  
-  display: block;
-  padding: 16px 32px;
-
+.clients__link {
   color: var(--icon-color);
 
   transition: color .2s linear;
 }
 
 .clients__link:hover,
-.clients__link:active {
+.clients__link:focus {
   color: var(--accent-color);
 }
 
@@ -529,7 +530,7 @@ p {
 }
 
 .footer .social__link:hover,
-.footer .social__link:active {
+.footer .social__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -582,7 +583,7 @@ p {
 }
 
 .works__link:hover,
-.works__link:active {
+.works__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
